@@ -19,3 +19,26 @@ const swiper = new Swiper('.welcome__slider', {
         prevEl: '.welcome__slider-prev',
       },
 });
+
+// Tabs for child & for parent
+const tabCild = document.querySelector('.tabs-cild__title');
+const tabParrent = document.querySelector('.tabs-parent__title');
+const contentCild = document.querySelector('.tabs-cild__content');
+const contentParrent = document.querySelector('.tabs-parent__content');
+
+if(tabCild){
+    tabCild.addEventListener('click', (e) =>{
+        tabCild.classList.add('active');
+        contentCild.classList.add('active');
+        tabParrent.classList.remove('active');
+        contentParrent.classList.remove('active');
+    })
+}
+if(tabParrent){
+    tabParrent.addEventListener('click', (e) =>{
+        tabParrent.classList.add('active');
+        contentParrent.classList.add('active');
+        tabCild.classList.remove('active');
+        contentCild.classList.remove('active');
+    })
+}

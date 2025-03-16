@@ -8,7 +8,7 @@
     <title>Document</title>
   </head>
   <body>
-    <header class="header">
+    <header id="header" class="header">
       <div class="container">
         <div class="header__wrapper">
           <div class="header__logo logo">
@@ -86,6 +86,7 @@
     </header>
     <main>
       <section
+        id="hero"
         class="hero"
         style="background-image: url(assets/img/hero-bg.jpg)"
       >
@@ -466,7 +467,7 @@
           <div class="container f-center">
             <a
               href="#"
-              class="header__signup letter-btn"
+              class="letter-btn"
               style="background-image: url(assets/img/icons/letter-z-bg.svg)"
             >
               Записаться<br />
@@ -506,7 +507,282 @@
               диагнозов, ярлыков и ненужных вмешательств.
             </p>
           </div>
-          <div class="services__child--tabs tabs"></div>
+          <div class="services__members--tabs tabs">
+            <div class="tabs__items">
+              <div class="tabs__items--titles">
+                <div class="tabs__items--title tabs-cild__title active">
+                  для детей
+                </div>
+                <div class="tabs__items--title tabs-parent__title">
+                  для родителей
+                </div>
+              </div>
+
+              <div class="tabs-cild__content tabs__content active">
+                <div class="tabs-cild__content--item tabs__content--item">
+                  <b>Улучшение концентрации</b>, повышение успеваемости,
+                  коррекция поведения без медикаментов.
+                </div>
+                <div class="tabs-cild__content--item tabs__content--item">
+                  <b>Развитие эмоционального интеллекта</b> и коммуникативных
+                  навыков.
+                </div>
+                <div class="tabs-cild__content--item tabs__content--item">
+                  <b>Формирование самостоятельности</b>, мотивации и
+                  критического мышления.
+                </div>
+              </div>
+
+              <div class="tabs-parent__content tabs__content">
+                <div class="tabs-parent__content--item tabs__content--item">
+                  <b>Практические стратегии</b> поддержки когнитивного и
+                  эмоционального развития ребенка.
+                </div>
+                <div class="tabs-parent__content--item tabs__content--item">
+                  <b>Продолжительная поддержка</b> в вопросах воспитания детей.
+                </div>
+                <div class="tabs-parent__content--item tabs__content--item">
+                  <b>Поиск немедикаментозных решений</b> для школьных и
+                  социальных проблем.
+                </div>
+                <div class="tabs-parent__content--item tabs__content--item">
+                  <b>Структурированный план</b>, разработанный под
+                  индивидуальные потребности ребенка.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="line-buttons">
+          <div class="container">
+            <div class="line-buttons__wrapper f-center">
+              <a
+                href="#"
+                class="header__signup letter-btn"
+                style="background-image: url(assets/img/icons/letter-z-bg.svg)"
+              >
+                Записаться<br />
+                на консультацию
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="container-full">
+          <div class="services__groop">
+            <div class="services__groop--title bg-title">
+              <picture>
+                <source
+                  media="(max-width: 465px)"
+                  srcset="assets/img/services-3-mobile.jpg"
+                />
+                <img src="assets/img/services-3.jpg" alt="" />
+              </picture>
+              <h3>
+                Групповые программы, вебинары, курсы для самостоятельного
+                изучения
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="container-fluid">
+            <p>
+              Наши программы предназначены
+              <b
+                >для всех, кто хочет научиться развивать и использовать высшие
+                психические функции для повышения качества жизни</b
+              >. Темы, которым мы посвящаем наши программы:
+            </p>
+            <div class="services__groop--wrapper">
+              <div class="services__groop--item">
+                <p>
+                  <svg
+                    width="55"
+                    height="55"
+                    viewBox="0 0 55 55"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M2 53L20.9894 53L20.9894 42.0876L27.5 46.929L34.0106 42.0876L34.0106 53L53 53L53 2L34.0106 2L27.5 7.46342L20.9894 2L2 2L2 53Z"
+                      fill="white"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M0.5 54.5L0.499998 0.500004L21.5353 0.500003L27.5 5.50526L33.4647 0.500002L54.5 0.500001L54.5 54.5L32.5106 54.5L32.5106 45.0723L27.5 48.7983L22.4894 45.0723L22.4894 54.5L0.5 54.5ZM3.5 51.5L19.4894 51.5L19.4894 39.1029L27.5 45.0598L35.5106 39.1029L35.5106 51.5L51.5 51.5L51.5 3.5L34.5566 3.5L27.5 9.42158L20.4434 3.5L3.5 3.5L3.5 51.5Z"
+                      fill="#7C7B7B"
+                    />
+                  </svg>
+                  <b>Ментальный детокс:</b> Как защитить себя от манипуляций и
+                  информационной перегрузки.
+                </p>
+              </div>
+              <div class="services__groop--item">
+                <p>
+                  <svg
+                    width="55"
+                    height="55"
+                    viewBox="0 0 55 55"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M2 2L2 20.9894L21.9124 20.9894L15.071 27.5L21.9124 34.0106H2L2 53L53 53V34.0106V27.5L53 20.9894V2L2 2Z"
+                      fill="white"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M0.5 0.5L54.5 0.5L54.5 54.5L0.5 54.5L0.5 32.5106H18.1603L12.8951 27.5L18.1603 22.4894L0.5 22.4894L0.5 0.5ZM3.5 3.5L3.5 19.4894L25.6645 19.4894L17.2468 27.5L25.6645 35.5106L3.5 35.5106L3.5 51.5L51.5 51.5L51.5 3.5L3.5 3.5Z"
+                      fill="#7C7B7B"
+                    />
+                  </svg>
+                  <b>Эмоциональная устойчивость:</b>
+                  как справляться с эмоциональными проблемами, токсичными
+                  ситуациями, сложностями в отношениях.
+                </p>
+              </div>
+              <div class="services__groop--item">
+                <p>
+                  <svg
+                    width="55"
+                    height="55"
+                    viewBox="0 0 55 55"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M0.5 0.5L54.5 0.5L54.5 54.5L0.5 54.5L0.5 0.5Z"
+                      fill="white"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M0.5 0.5L54.5 0.5L54.5 54.5L0.5 54.5L0.5 0.5ZM3.5 3.5L3.5 51.5L51.5 51.5L51.5 3.5L3.5 3.5Z"
+                      fill="#7C7B7B"
+                    />
+                  </svg>
+                  <b>Обучение для родителей:</b>
+                  Практические стратегии когнитивного и эмоционального развития
+                  детей.
+                </p>
+              </div>
+              <div class="services__groop--item">
+                <p>
+                  <svg
+                    width="55"
+                    height="55"
+                    viewBox="0 0 55 55"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M33.5 45L21.5 45V54.5H0.5L0.5 0.5L54.5 0.5L54.5 54.5H33.5V45Z"
+                      fill="white"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M0.5 0.5L54.5 0.5L54.5 54.5H33.5V45L21.5 45V54.5H0.5L0.5 0.5ZM3.5 3.5L3.5 51.5H18.5V42L36.5 42V51.5H51.5L51.5 3.5L3.5 3.5Z"
+                      fill="#7C7B7B"
+                    />
+                  </svg>
+                  <b
+                    >Принятие решений, коммуникация, личная эффективность и
+                    эмоциональный интеллект:</b
+                  >
+                  Инструменты для профессионалов, помогающие повысить
+                  уверенность, продуктивность и личностный рост.
+                </p>
+              </div>
+              <div class="services__groop--item">
+                <p>
+                  <svg
+                    width="55"
+                    height="55"
+                    viewBox="0 0 55 55"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M0.5 0.5L54.5 0.5L54.5 37.5H37.5V54.5L0.5 54.5L0.5 0.5Z"
+                      fill="white"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M0.5 0.5L54.5 0.5L54.5 37.5H37.5V54.5L0.5 54.5L0.5 0.5ZM3.5 3.5L3.5 51.5L34.5 51.5V34.5H51.5L51.5 3.5L3.5 3.5Z"
+                      fill="#7C7B7B"
+                    />
+                  </svg>
+                  <b
+                    >Развитие личной эффективности, самоорганизации и
+                    продуктивности:</b
+                  >
+                  Практические методы развития дисциплины, мотивации и
+                  эффективности в достижении целей.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="line-buttons">
+          <div class="container">
+            <div class="container-fluid">
+              <div class="line-buttons__wrapper f-start">
+                <a
+                  href="#"
+                  class="header__signup letter-btn"
+                  style="
+                    background-image: url(assets/img/icons/letter-o-bg.svg);
+                  "
+                >
+                  Отправить заявку на групповой тренинг
+                </a>
+                <a
+                  href="#"
+                  class="header__signup letter-btn"
+                  style="
+                    background-image: url(assets/img/icons/letter-n-bg.svg);
+                  "
+                >
+                  Подобрать программу
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container-full">
+          <div class="services__sertificat">
+            <div class="services__sertificat--title bg-title">
+              <picture>
+                <source
+                  media="(max-width: 465px)"
+                  srcset="assets/img/services-4-mobile.jpg"
+                />
+                <img src="assets/img/services-4.jpg" alt="" />
+              </picture>
+              <h3>
+                Сертификация и профессиональное обучение в развитии высших
+                психических функций
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="container-fluid">
+            <p>
+              Структурированная сертификация для
+              <b>коучей, педагогов и консультантов</b>, которые хотят применять
+              <b
+                >научно обоснованные методы когнитивного и эмоционального
+                развития без ограничений лицензирования терапии.</b
+              >
+            </p>
+          </div>
         </div>
       </section>
     </main>
@@ -528,7 +804,7 @@
             </nav>
           </div>
           <div class="footer__upstair">
-            <a href="#">
+            <a href="#header">
               <svg
                 width="48"
                 height="48"
