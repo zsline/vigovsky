@@ -842,6 +842,31 @@ z-index: -1;
 .services__sertificat--title h3{
     max-width: 824px;
 }
+.services__sertificat--wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 32px;
+}
+.services__sertificat--item{
+    position: relative;
+    width: 100%;
+    padding: 114px 33px 23px;
+    background-color: #E6E6E6;
+}
+.services__sertificat--item::after{
+    position: absolute;
+    content: '';
+    background-image: url(../img/icons/sertificat.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 51px;
+    height: 68px;
+    top: 23px;
+    left: 50%;
+    transform: translateX(-50%);
+}
 @media (max-width:768px) {
     .services__groop--wrapper{
         display: block;
@@ -859,7 +884,13 @@ z-index: -1;
     }
 }
 /* ====== End Services ========== */
-
+/* ======== About=============== */
+.about{
+    background-color: #E6E6E6;
+    padding: clamp(1.31rem, calc(0.03rem + 3.65vw), 2.63rem) 0 clamp(1rem, calc(-0.41rem + 3.99vw), 2.44rem);
+    margin-top: clamp(2.06rem, calc(0.17rem + 5.38vw), 4rem);
+}
+/* ======== End About=============== */
 /* ======= Footer ========== */
 .footer{
     background-color: #242424;
