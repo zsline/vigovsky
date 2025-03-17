@@ -11,12 +11,26 @@ headerClose.addEventListener('click', () => {
     header.classList.remove('open');
 })
 
-const swiper = new Swiper('.welcome__slider', {
+const welcomeSwiper = new Swiper('.welcome__slider', {
     // loop: true,
     effect: "fade",
     navigation: {
         nextEl: '.welcome__slider-next',
         prevEl: '.welcome__slider-prev',
+      },
+});
+const founderSwiper = new Swiper('.founder__slider', {
+    autoHeight: true,
+    navigation: {
+        nextEl: '.founder__slider-next',
+        prevEl: '.founder__slider-prev',
+      },
+});
+const reviewsSwiper = new Swiper('.reviews-slider', {
+    autoHeight: true,
+    navigation: {
+        nextEl: '.reviews__slider-next',
+        prevEl: '.reviews__slider-prev',
       },
 });
 
