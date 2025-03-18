@@ -56,3 +56,8 @@ if(tabParrent){
         contentCild.classList.remove('active');
     })
 }
+
+if(document.querySelector('.contacts__form--bottom input').checked){
+    console.log('check');
+    
+}
