@@ -435,6 +435,12 @@ h3{
         border-right: 36px solid transparent;
     }
 }
+@media (max-width:374px){
+.letter-btn {
+    width: 300px;
+}
+
+}
 @media (orientation: portrait){
     .container-fluid {
         width: 100%;
@@ -607,7 +613,7 @@ h3{
     gap: 20px;
     font-size: clamp(0.88rem, calc(0.68rem + 0.8vw), 1.25rem);
 }
-.line-buttons__inner a{
+.individual-two + .line-buttons .line-buttons__inner a{
     flex: 1 0 auto;
  }
  .line-buttons__inner p {
@@ -1465,4 +1471,16 @@ z-index: -1;
     grid-template-columns: repeat(2, 1fr);
     column-gap: clamp(0.88rem, calc(-1.79rem + 10.93vw), 6rem);
     row-gap: clamp(0.88rem, calc(0.36rem + 2.13vw), 1.88rem);
+}
+
+@media (max-width: 374px) {
+    .header nav ul {
+        margin-left: 20px;
+    }
+    .header__wrapper .letter-btn {
+        width: 280px;
+    }
+    .welcome__slider .swiper-slide p{
+        max-width: 60%;
+    }
 }
